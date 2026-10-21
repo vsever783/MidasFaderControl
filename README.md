@@ -3,7 +3,7 @@
 **Android remote control for the Midas Pro2 mixing console.**
 
 Control your Pro2 from a phone or tablet over Wi-Fi: faders, mutes, solos,
-gain, EQ, dynamics, sends, buses, VCAs, patching and scenes. Includes a
+gain, EQ, dynamics, sends, buses, VCAs and patching. Includes a
 personal monitor-mix mode for musicians.
 
 > ⚠️ **Unofficial, beta.** This app is not made, endorsed or supported by
@@ -86,8 +86,7 @@ name and colour from the console.
 - Sends on fader: channel faders control the send to a chosen bus or matrix.
 - VCAs and mute groups with their members.
 - Patching: DL251 and local inputs to channels.
-- Scenes: LAST / NOW / NEXT with confirmation, console display texts.
-- TAP, screen LOCK against accidental touches.
+- Screen LOCK against accidental touches.
 
 **Built for the stage:** faders and knobs move relative to your finger (no
 jumps when you touch them), with a touch threshold, fine adjustment with a
@@ -101,14 +100,12 @@ screen without scrolling; graphs, knobs and buttons grow to use the space.
 These features are implemented, but have not yet been confirmed on a live
 Pro2. Use with care and report what you see:
 
-- **TAP** has no effect on the console so far.
-- **LINK** on channels shows the state only; linking from the app is not
-  possible.
-- **Scenes** LAST / NOW / NEXT buttons.
-- **Channel colour** written from the app may come out with wrong colours.
-- **Side-chain / key source** and **insert return** selection.
+- **Insert return** selection.
 - **Finding the console** on the network (tested on a simulator only).
-- Some bus and matrix parameters (GEQ filters, compressor style).
+- Some matrix parameters (GEQ filters, compressor style).
+
+Not possible over the network (checked on a live console): scenes, TAP tempo,
+linking channels from the app (LINK shows the state only).
 
 ---
 
