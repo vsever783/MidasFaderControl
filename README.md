@@ -49,7 +49,7 @@ connected and Wi-Fi drops, it reconnects by itself when Wi-Fi comes back.
 3. Choose a mode:
    - **ENGINEER** — full control of the console.
    - **MUSICIAN (MONITOR)** — pick your bus and mix your own monitor: channel
-     sends and bus level. Uses a light set of subscriptions so it does not
+     and aux return (effects) sends and bus level. Uses a light set of subscriptions so it does not
      disturb other connected apps.
 
 No console at hand? Tap **DEMO (no console)** to explore the interface with
@@ -85,7 +85,10 @@ name and colour from the console.
 **Also:**
 
 - Aux buses, matrices and masters: compressor with mode (corrective …
-  shimmer) and 6-band EQ with graph, matrix sends, link.
+  shimmer) and MORE, 6-band EQ with graph, matrix sends, link. Aux buses
+  and masters: phase; aux buses also delay and all sends PRE / POST.
+- Aux returns: EQ, sends to aux buses and matrices, pan and more - the same
+  screen as a channel.
 - Sends on fader: channel faders control the send to a chosen bus or matrix.
 - VCAs and mute groups with their members.
 - Patching: DL251 and local inputs to channels.
@@ -104,6 +107,8 @@ These features are implemented, but have not yet been confirmed on a live
 Pro2. Use with care and report what you see:
 
 - **Insert return** selection.
+- **Aux return screen**, compressor **MORE**, aux bus **delay** (raw value),
+  **phase**, **all sends PRE / POST** (new in 1.3, simulator only).
 - **Reconnecting after a console restart** (works with the simulator).
 - Compressor **RATIO** values between the scale marks; **knee / width**
   position names; **mono level** scale.
