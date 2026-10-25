@@ -40,6 +40,9 @@ When updating, install the new APK over the old one. If Android refuses
 
 ## Getting started
 
+The console network usually has no internet - that is fine. If the app was
+connected and Wi-Fi drops, it reconnects by itself when Wi-Fi comes back.
+
 1. Enter the console IP (default `192.168.1.91`) and port `10000`, or tap
    **FIND CONSOLE ON NETWORK**.
 2. Tap **CONNECT**.
@@ -81,8 +84,8 @@ name and colour from the console.
 
 **Also:**
 
-- Aux buses, matrices and masters: compressor and 6-band EQ with graph,
-  matrix sends, link.
+- Aux buses, matrices and masters: compressor with mode (corrective …
+  shimmer) and 6-band EQ with graph, matrix sends, link.
 - Sends on fader: channel faders control the send to a chosen bus or matrix.
 - VCAs and mute groups with their members.
 - Patching: DL251 and local inputs to channels.
@@ -101,8 +104,9 @@ These features are implemented, but have not yet been confirmed on a live
 Pro2. Use with care and report what you see:
 
 - **Insert return** selection.
-- **Finding the console** on the network (tested on a simulator only).
-- Some matrix parameters (GEQ filters, compressor style).
+- **Reconnecting after a console restart** (works with the simulator).
+- Compressor **RATIO** values between the scale marks; **knee / width**
+  position names; **mono level** scale.
 
 Not possible over the network (checked on a live console): scenes, TAP tempo,
 linking channels from the app (LINK shows the state only).
