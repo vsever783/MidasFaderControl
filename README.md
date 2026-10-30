@@ -69,8 +69,8 @@ The **STYLE** button on the connect screen switches between:
 ## Features
 
 **Channel strips** (inputs 1–56 in banks of 8, plus custom layers): fader,
-MUTE, SOLO, meter with peak and clip, EQ / COMP / GATE indicators, channel
-name and colour from the console.
+MUTE, SOLO, meter with peak and clip, EQ / COMP / GATE indicators, pan
+indicator, channel number, name and colour from the console.
 
 **Channel screen:**
 
@@ -80,13 +80,14 @@ name and colour from the console.
 | CONFIG | Pan, ST / MON, mono level, processing order, name, colour, mute groups |
 | COMP / GATE | Transfer curve with gain-reduction meter and live level dot, all controls, mode, knee, width, listen, filter, side-chain / key source |
 | EQ | Interactive graph, 4 bands, band shapes, HPF / LPF |
-| SENDS | 16 aux sends and matrix sends: level, pan, pre/post, on |
+| SENDS | 16 aux sends and matrix sends in pages of eight: level, pan, pre/post, on |
 
 **Also:**
 
 - Aux buses, matrices and masters: compressor with mode (corrective …
   shimmer) and MORE, 6-band EQ with graph, matrix sends, link. Aux buses
-  and masters: phase; aux buses also delay and all sends PRE / POST.
+  and masters: phase; aux buses also delay, all sends PRE / POST and bus
+  mode (MIX / MIX MINUS / GROUP).
 - Aux returns: EQ, sends to aux buses and matrices, pan and more - the same
   screen as a channel.
 - Sends on fader: channel faders control the send to a chosen bus or matrix.
@@ -108,7 +109,8 @@ Pro2. Use with care and report what you see:
 
 - **Insert return** selection.
 - **Aux return screen**, compressor **MORE**, aux bus **delay** (raw value),
-  **phase**, **all sends PRE / POST** (new in 1.3, simulator only).
+  **phase**, **all sends PRE / POST** (new in 1.3), **aux bus mode** (new in
+  1.4) — simulator only.
 - **Reconnecting after a console restart** (works with the simulator).
 - Compressor **RATIO** values between the scale marks; **knee / width**
   position names; **mono level** scale.
